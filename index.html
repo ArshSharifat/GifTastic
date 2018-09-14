@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- BOOTSTRAP CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <!-- CSS PATH-->
     <link rel="stylesheet" href="style.css">
     <title>Celebrity GIPHY</title>
 </head>
+
 <body>
+
+    <!-- buttons show here -->
     <div id="root"></div>
+
+    <!-- input form -->
+    <form id="celeb-form">
+        <label for="celeb-input">Add Your Celebrity</label>
+        <input type="text" id="celeb-input"><br>
+        <!-- Button triggers new movie to be added -->
+        <input value="submit" type="submit">
+    </form>
+
+    <!-- GIFS appear here -->
     <div id="gifs-appear-here">
-        </div>
-    
-<!-- JQUERY CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- JAVASCRIPT PATH -->
-<script src="logic.js"></script>
+    </div>
+
+    <!-- JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JAVASCRIPT PATH -->
+    <script src="logic.js"></script>
 </body>
+
 </html>
